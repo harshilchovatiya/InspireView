@@ -45,7 +45,7 @@ Below are some screenshots of the InspireView application:
 
 You can download the InspireView app directly from the following link:
 
-[Direct Download Link](https://example.com/inspireview-download)
+[Direct Download Link](https://github.com/harshilchovatiya/InspireView/releases/download/v0.0.1/InspireView.apk)
 
 
 
