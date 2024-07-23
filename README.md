@@ -73,3 +73,8 @@ For any inquiries or feedback, please reach out to us at [harshilbmk@gmail.com](
 ---
 
 Thank you for using InspireView! We hope it brings daily inspiration to your life.
+
+
+<div align="center">
+<img src="https://komarev.com/ghpvc/?username=harshilchovatiya&&style=flat-square" align="center" />
+</div>  
