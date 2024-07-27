@@ -38,7 +38,8 @@ Below are some screenshots of the InspireView application:
 | ![10](https://github.com/user-attachments/assets/a516a7ca-1e16-478a-82a4-11b6ba733237) | ![11](https://github.com/user-attachments/assets/3cacd940-c3ce-4c12-bd70-725be1d744f2) | ![12](https://github.com/user-attachments/assets/2e1ce1a6-ecc3-4cf3-ae68-144fa1d6c5b1) |
 | ![13](https://github.com/user-attachments/assets/5ffced81-4bd6-4627-a2f4-c623cc8be4a4) | ![14](https://github.com/user-attachments/assets/ef053c9e-108e-4e1d-abf6-6811411b7716) | ![15](https://github.com/user-attachments/assets/08633903-d81e-4b3f-bac0-8e3e4fa34c14) |
 | ![16](https://github.com/user-attachments/assets/f5afeed5-70cb-445d-8f12-d18a7ab71f83)| ![17](https://github.com/user-attachments/assets/b59a2ebc-358d-4029-aed8-26f6edc5155c) | ![18](https://github.com/user-attachments/assets/a27f593d-14a7-42bc-9d1f-933291e3b601) |
-| ![19](https://github.com/user-attachments/assets/059ac11b-f795-46a2-9b46-4909855ae2af) | ![20](https://github.com/user-attachments/assets/da3ce70b-537d-48d5-8b00-0aaabdb6d3c7) | |
+| ![19](https://github.com/user-attachments/assets/059ac11b-f795-46a2-9b46-4909855ae2af) | ![20](https://github.com/user-attachments/assets/da3ce70b-537d-48d5-8b00-0aaabdb6d3c7) | ![20](https://github.com/user-attachments/assets/5eee316d-8a2b-4e82-8604-59ac1f692985)
+|
 
 
 ## Direct Download
