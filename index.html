@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  
-  <base href="/InspireView/"/>
+
+  <base href="/InspireView/" />
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="InspireView is a motivational quotes application that displays inspiring quotes over beautiful background images. Features include user account management, customizable themes, and a favorites section.">
-  <meta name="keywords" content="motivational quotes, inspirational quotes, daily motivation, Flutter web app, Harshil Chovatiya, personal growth, self-improvement">
+  <meta name="description"
+    content="InspireView is a motivational quotes application that displays inspiring quotes over beautiful background images. Features include user account management, customizable themes, and a favorites section.">
+  <meta name="keywords"
+    content="motivational quotes, inspirational quotes, daily motivation, Flutter web app, Harshil Chovatiya, personal growth, self-improvement">
   <meta name="author" content="Harshil Chovatiya">
 
-   <!-- Open Graph tags for better social media integration -->
-   <meta property="og:title" content="InspireView - Motivational Quotes App">
-   <meta property="og:description" content="InspireView offers daily doses of motivation through visually appealing quotes. Enjoy features like customizable themes, a favorites section, and user account management.">
-   <meta property="og:image" content="https://github-production-user-asset-6210df.s3.amazonaws.com/131672641/351269153-fe7fee43-3a9e-4fdd-bbcd-68ee9befbfdd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T072951Z&X-Amz-Expires=300&X-Amz-Signature=3a0f3b7a797d957595df2ec646cf62cda1c8d6a72bc08337060d649cc21661cb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=832557786">
-   <meta property="og:url" content="https://harshilchovatiya.github.io/InspireView/">
-   <meta property="og:type" content="website">
- 
-   <!-- Twitter Card tags for better social media integration -->
-   <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:title" content="InspireView - Motivational Quotes App">
-   <meta name="twitter:description" content="InspireView provides motivational quotes with beautiful background images. Features include customizable themes, a favorites section, and user account management.">
-   <meta name="twitter:image" content="https://github-production-user-asset-6210df.s3.amazonaws.com/131672641/351269153-fe7fee43-3a9e-4fdd-bbcd-68ee9befbfdd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T072951Z&X-Amz-Expires=300&X-Amz-Signature=3a0f3b7a797d957595df2ec646cf62cda1c8d6a72bc08337060d649cc21661cb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=832557786">
-   <meta name="twitter:site" content="@harshilbmk">
+  <!-- Open Graph tags for better social media integration -->
+  <meta property="og:title" content="InspireView - Motivational Quotes App">
+  <meta property="og:description"
+    content="InspireView offers daily doses of motivation through visually appealing quotes. Enjoy features like customizable themes, a favorites section, and user account management.">
+  <meta property="og:image"
+    content="https://github-production-user-asset-6210df.s3.amazonaws.com/131672641/351269153-fe7fee43-3a9e-4fdd-bbcd-68ee9befbfdd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T072951Z&X-Amz-Expires=300&X-Amz-Signature=3a0f3b7a797d957595df2ec646cf62cda1c8d6a72bc08337060d649cc21661cb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=832557786">
+  <meta property="og:url" content="https://harshilchovatiya.github.io/InspireView/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card tags for better social media integration -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="InspireView - Motivational Quotes App">
+  <meta name="twitter:description"
+    content="InspireView provides motivational quotes with beautiful background images. Features include customizable themes, a favorites section, and user account management.">
+  <meta name="twitter:image"
+    content="https://github-production-user-asset-6210df.s3.amazonaws.com/131672641/351269153-fe7fee43-3a9e-4fdd-bbcd-68ee9befbfdd.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240906%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240906T072951Z&X-Amz-Expires=300&X-Amz-Signature=3a0f3b7a797d957595df2ec646cf62cda1c8d6a72bc08337060d649cc21661cb&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=832557786">
+  <meta name="twitter:site" content="@harshilbmk">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,10 +38,11 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>InspireView - Motivational Quotes App</title>
   <link rel="manifest" href="manifest.json">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,7 +56,7 @@
     "provider": {
       "@type": "Organization",
       "name": "Harshil Chovatiya",
-      "url": "https://harshilchovatiya.github.io",
+      "url": "https://harshilchovatiya.github.io"
     },
     "aggregateRating": {
       "@type": "AggregateRating",
@@ -71,7 +79,7 @@
     "creator": {
       "@type": "Person",
       "name": "Harshil Chovatiya",
-      "url": "https://harshilchovatiya.github.io/
+      "url": "https://harshilchovatiya.github.io/"
     },
     "applicationSubCategory": "Productivity",
     "additionalType": "https://schema.org/SoftwareApplication",
@@ -104,7 +112,7 @@
     "dateModified": "2024-09-06",
     "mainEntityOfPage": "https://harshilchovatiya.github.io/InspireView/"
   }
-</script>
+  </script>
 
   <script>
     // The value below is injected by flutter build, do not touch.
@@ -113,16 +121,17 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
+
 <body>
   <script>
-    window.addEventListener('load', function(ev) {
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
@@ -130,4 +139,5 @@
     });
   </script>
 </body>
+
 </html>
